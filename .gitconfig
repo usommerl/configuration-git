@@ -1,0 +1,7 @@
+[user]
+	name = Uwe Sommerlatt
+	email = uwe.sommerlatt@googlemail.com
+[alias]
+	st = status --short
+[color]
+	ui = true
