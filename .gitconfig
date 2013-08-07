@@ -1,8 +1,6 @@
 [user]
 	name = Uwe Sommerlatt
 	email = uwe.sommerlatt@gmail.com
-[alias]
-	st = status --short
 [color]
 	ui = true
 [push]
