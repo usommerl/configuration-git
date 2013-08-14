@@ -11,3 +11,18 @@
 	prompt = false
 [status]
 	submodulesummary = true
+[alias]
+	st = status --short
+	stl = status
+	c = commit
+	a = add
+	l = log --stat
+	ll = log --pretty=tformat:'%h %ad %s (%an)' --date=short
+	pl = pull
+	ps = push --recurse-submodules=check
+	psr = push --recurse-submodules=on-demand
+	co = checkout
+	b = branch
+	su = submodule
+	pu = pull
+	d = diff
