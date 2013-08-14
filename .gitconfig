@@ -24,5 +24,4 @@
 	co = checkout
 	b = branch
 	su = submodule
-	pu = pull
 	d = diff
