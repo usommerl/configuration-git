@@ -17,7 +17,7 @@ function _bootstrap() {
     local _template=$CURRENT_DIRECTORY/$_libDirectory/management-template.sh
     command -v git &>/dev/null && {
         cd $CURRENT_DIRECTORY
-        git submodule --quiet init $_libDirectory ; git submodule --quiet update
+        git submodule --quiet update --init $_libDirectory
         [ -e $_template ] && source $_template $@
     }
     echo "Bootstrap operation failed. Aborting."; exit 1
