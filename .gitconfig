@@ -12,8 +12,8 @@
 [status]
 	submodulesummary = true
 [alias]
-	st = status --short
-	stl = status
+	st = status --short -b
+	stl = status --long
 	c = commit
 	a = add
 	l = log --stat
