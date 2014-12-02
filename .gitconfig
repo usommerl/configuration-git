@@ -17,7 +17,7 @@
 	c = commit
 	a = add
 	l = log --stat
-	ll = log --pretty=tformat:'%h %ad %s (%an)' --date=short
+	ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
 	pl = pull
 	ps = push --recurse-submodules=check
 	psr = push --recurse-submodules=on-demand
