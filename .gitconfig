@@ -5,6 +5,12 @@
 	ui = true
 [push]
 	default = simple
+[init]
+	templatedir = ~/.git_template
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
 [merge]
 	tool = vimdiff
 [mergetool]
