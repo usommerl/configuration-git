@@ -1,29 +1,29 @@
 [user]
-	name = Uwe Sommerlatt
-	email = uwe.sommerlatt@gmail.com
+    name = Uwe Sommerlatt
+    email = uwe.sommerlatt@gmail.com
 [color]
-	ui = true
+    ui = true
 [push]
-	default = simple
+    default = simple
 [merge]
-	tool = vimdiff
+    tool = vimdiff
 [mergetool]
-	prompt = false
+    prompt = false
 [status]
-	submodulesummary = true
+    submodulesummary = true
 [alias]
     in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git ll ..$r/$b; }; f"
     out = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git ll $r/$b..; }; f"
-	st = status --short -b
-	stl = status --long
-	c = commit
-	a = add
-	l = log --stat
-	ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
-	pl = pull
-	ps = push --recurse-submodules=check
-	psr = push --recurse-submodules=on-demand
-	co = checkout
-	b = branch
-	su = submodule
-	d = diff
+    st = status --short -b
+    stl = status --long
+    c = commit
+    a = add
+    l = log --stat
+    ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
+    pl = pull
+    ps = push --recurse-submodules=check
+    psr = push --recurse-submodules=on-demand
+    co = checkout
+    b = branch
+    su = submodule
+    d = diff
