@@ -18,6 +18,8 @@
 [status]
 	submodulesummary = true
 [alias]
+    in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git ll ..$r/$b; }; f"
+    out = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git ll $r/$b..; }; f"
 	st = status --short -b
 	stl = status --long
 	c = commit
