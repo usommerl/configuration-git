@@ -5,8 +5,11 @@
     ui = true
 [push]
     default = simple
+[pull]
+	rebase = true
 [merge]
     tool = vimdiff
+	ff = false
 [mergetool]
     prompt = false
 [status]
