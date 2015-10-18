@@ -12,6 +12,8 @@
 	ff = false
 [mergetool]
 	prompt = false
+[rebase]
+	autostash = true
 [status]
 	submodulesummary = true
 [alias]
