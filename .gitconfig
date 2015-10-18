@@ -16,7 +16,7 @@
     out = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git ll $r/$b..; }; f"
     st = status --short -b
     stl = status --long
-    c = commit
+    c = commit -v
     a = add
     l = log --stat
     ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
@@ -27,3 +27,4 @@
     b = branch
     su = submodule
     d = diff
+    ds = diff --staged
