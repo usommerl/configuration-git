@@ -1,6 +1,6 @@
 [user]
 	name = Uwe Sommerlatt
-	email = uwe.sommerlatt@gmail.com
+	email = Uwe.Sommerlatt@ottogroup.de
 [color]
 	ui = true
 [push]
@@ -33,3 +33,5 @@
 	b = branch
 	su = submodule
 	d = diff
+[http]
+    sslVerify = false
