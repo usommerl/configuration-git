@@ -34,6 +34,7 @@
 	b = branch
 	su = submodule
 	d = diff
+	ds = diff --staged
 [http]
 	sslVerify = false
 [pull]
