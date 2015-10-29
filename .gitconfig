@@ -35,3 +35,7 @@
 	d = diff
 [http]
 	sslVerify = false
+[pull]
+	rebase = true
+[rebase]
+	autostash = true
