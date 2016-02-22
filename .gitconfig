@@ -40,4 +40,5 @@
 [pull]
 	rebase = true
 [rebase]
-	autostash = true
+	autoStash = true
+	autoSquash = true
