@@ -1,23 +1,3 @@
-[user]
-	name = Uwe Sommerlatt
-	email = Uwe.Sommerlatt@ottogroup.de
-[color]
-	ui = true
-[push]
-	default = simple
-[init]
-	templatedir = ~/.git_template
-[core]
-	editor = vim
-[diff]
-	tool = vimdiff
-[merge]
-	tool = vimdiff
-	ff = false
-[mergetool]
-	prompt = false
-[status]
-	submodulesummary = true
 [alias]
 	a = add
 	b = branch
@@ -36,10 +16,30 @@
 	st = status --short -b
 	stl = status --long
 	su = submodule
+[color]
+	ui = true
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
 [http]
 	sslVerify = false
+[init]
+	templatedir = ~/.git_template
+[merge]
+	tool = vimdiff
+	ff = false
+[mergetool]
+	prompt = false
 [pull]
 	rebase = true
+[push]
+	default = simple
 [rebase]
 	autoStash = true
 	autoSquash = true
+[status]
+	submodulesummary = true
+[user]
+	name = Uwe Sommerlatt
+	email = Uwe.Sommerlatt@ottogroup.de
