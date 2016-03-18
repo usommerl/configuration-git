@@ -31,6 +31,7 @@
 	ps = push --recurse-submodules=check
 	psr = push --recurse-submodules=on-demand
 	co = checkout
+  cp = cherry-pick
 	b = branch
 	su = submodule
 	d = diff
