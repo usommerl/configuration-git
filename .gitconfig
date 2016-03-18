@@ -13,6 +13,7 @@
 	pl = pull
 	ps = push --recurse-submodules=check
 	psr = push --recurse-submodules=on-demand
+	s = show
 	st = status --short -b
 	stl = status --long
 	su = submodule
