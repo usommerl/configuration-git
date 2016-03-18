@@ -20,6 +20,8 @@
 	su = submodule
 [color]
 	ui = true
+[core]
+	editor = nvim
 [merge]
 	tool = vimdiff
 	ff = false
