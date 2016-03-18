@@ -1,17 +1,3 @@
-[user]
-	name = Uwe Sommerlatt
-	email = uwe.sommerlatt@gmail.com
-[color]
-	ui = true
-[push]
-	default = simple
-[merge]
-	tool = vimdiff
-	ff = false
-[mergetool]
-	prompt = false
-[status]
-	submodulesummary = true
 [alias]
 	a = add
 	b = branch
@@ -31,8 +17,22 @@
 	st = status --short -b
 	stl = status --long
 	su = submodule
+[color]
+	ui = true
+[merge]
+	tool = vimdiff
+	ff = false
+[mergetool]
+	prompt = false
 [pull]
 	rebase = true
+[push]
+	default = simple
 [rebase]
 	autoStash = true
 	autoSquash = true
+[status]
+	submodulesummary = true
+[user]
+	name = Uwe Sommerlatt
+	email = uwe.sommerlatt@gmail.com
