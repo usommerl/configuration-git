@@ -2,6 +2,9 @@
 	a = add
 	b = branch
 	c = commit -v
+	ca = commit -v --amend
+	can = commit -v --amend --no-edit
+	cc = clean -f -d
 	co = checkout
 	cp = cherry-pick
 	d = diff
@@ -18,6 +21,8 @@
 	st = status --short -b
 	stl = status --long
 	su = submodule
+	t = tag
+	tl = tag --list
 [color]
 	ui = true
 [core]
