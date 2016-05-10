@@ -34,11 +34,13 @@
 [init]
 	templatedir = ~/.git_template
 [merge]
-	tool = vimdiff
+	tool = nvim
 	ff = false
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
+[mergetool "nvim"]
+	cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
 [pull]
 	rebase = true
 [push]
