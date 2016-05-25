@@ -17,6 +17,7 @@
 	pl = pull
 	ps = push --recurse-submodules=check
 	psr = push --recurse-submodules=on-demand
+	rl = reflog --date=local
 	s = show
 	st = status --short -b
 	stl = status --long
