@@ -30,10 +30,6 @@
 	editor = nvim
 [diff]
 	tool = vimdiff
-[http]
-	sslVerify = false
-[init]
-	templatedir = ~/.git_template
 [merge]
 	tool = nvim
 	ff = false
@@ -53,4 +49,6 @@
 	submodulesummary = true
 [user]
 	name = Uwe Sommerlatt
-	email = Uwe.Sommerlatt@ottogroup.de
+	email = uwe.sommerlatt@gmail.com
+[include]
+  path = ~/.gitconfig-local
