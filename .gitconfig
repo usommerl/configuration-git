@@ -50,3 +50,5 @@
 	email = uwe.sommerlatt@gmail.com
 [include]
   path = ~/.gitconfig-local
+[format]
+	pretty = fuller
