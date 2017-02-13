@@ -11,8 +11,9 @@
 	ds = diff --staged
 	f = fetch
 	in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git l ..$r/$b; }; f"
+	lo = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
 	ll = log --stat
-	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
+	l = !git lo --graph && exit 0
 	out = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git l $r/$b..; }; f"
 	pl = pull
 	ps = push --recurse-submodules=check
