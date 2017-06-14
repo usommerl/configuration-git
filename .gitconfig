@@ -57,3 +57,7 @@
   path = ~/.gitconfig-local
 [format]
 	pretty = fuller
+[credential]
+	helper = store
+[credential "https://dev.exelonix.com"]
+	username = uwe.sommerlatt
