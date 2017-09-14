@@ -16,7 +16,7 @@
 	f = fetch
 	in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git lo ..$r/$b; }; f"
 	lo = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
-	ll = "!f() { git log --stat $@; }; f"
+	ll = log --stat
 	l = "!f() { git lo --graph $@ && exit 0; }; f"
 	out = "!f() { local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git lo $r/$b..; }; f"
 	pl = pull
