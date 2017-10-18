@@ -20,7 +20,7 @@
 	l = "!f() { git lo --graph $@ && exit 0; }; f"
 	out = "!f() { local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git lo $r/$b..; }; f"
 	pl = pull
-	ps = push --recurse-submodules=check
+	ps = push
 	psr = push --recurse-submodules=on-demand
 	rl = reflog --date=local
 	s = show
@@ -46,6 +46,7 @@
 [push]
 	default = simple
 	followTags = true
+	recurseSubmodules = check
 [rebase]
 	autoStash = true
 	autoSquash = true
