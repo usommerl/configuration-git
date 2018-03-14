@@ -16,7 +16,18 @@
 	cp = cherry-pick
 	d = diff
 	ds = diff --staged
-	f = fetch
+	f = flow
+	fi = flow init
+	ff = flow feature
+	ffl = flow feature list -v
+	ffs = flow feature start
+	fff = flow feature finish
+	ffp = flow feature publish
+	fr = flow release
+	frl = flow release list -v
+	frs = flow release start
+	frf = flow release finish --keepremote
+	frp = flow release publish
 	in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git lo ..$r/$b; }; f"
 	lo = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short
 	ll = log --stat
@@ -65,3 +76,5 @@
 [credential "https://dev.exelonix.com"]
 	username = uwe.sommerlatt
 	helper = store
+[gitflow "prefix"]
+	versiontag = v
