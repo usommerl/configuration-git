@@ -5,6 +5,9 @@
 [alias]
 	a = add
 	b = branch
+	bl = branch --list
+	ba = branch -a
+	bal = branch -a --list
 	c = commit -v
 	ca = commit -v --amend
 	can = commit -v --amend --no-edit
