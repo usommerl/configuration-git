@@ -79,3 +79,5 @@
 	helper = store
 [gitflow "prefix"]
 	versiontag = v
+[diff]
+	submodule = diff
