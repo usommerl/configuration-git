@@ -41,6 +41,7 @@
 	st = status --short -b
 	stl = status --long
 	su = submodule
+	suf = submodule foreach
 	t = tag
 	tl = tag --list
 [color]
