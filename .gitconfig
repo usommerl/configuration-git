@@ -2,6 +2,7 @@
 	log = diff-highlight | less -r
 	show = diff-highlight | less -r
 	diff = diff-highlight | less -r
+	branch = false
 [alias]
 	a = add
 	b = branch
