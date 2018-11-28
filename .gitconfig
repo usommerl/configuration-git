@@ -6,6 +6,7 @@
 [alias]
 	a = add
 	b = branch
+	bc = rev-parse --abbrev-ref HEAD
 	bll = branch --list
 	blr = branch -r --list
 	bla = branch -a --list
