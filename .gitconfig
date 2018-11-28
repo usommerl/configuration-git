@@ -9,6 +9,7 @@
 	bll = branch --list
 	blr = branch -r --list
 	bla = branch -a --list
+	blu = remote update origin --prune
 	c = commit -v
 	ca = commit -v --amend
 	can = commit -v --amend --no-edit
