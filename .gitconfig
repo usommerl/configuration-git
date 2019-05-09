@@ -29,7 +29,7 @@
 	ff = flow feature
 	ffl = flow feature list -v
 	ffs = flow feature start
-	fff = flow feature finish --keepremote
+	fff = flow feature finish
 	ffp = flow feature publish
 	fr = flow release
 	frl = flow release list -v
