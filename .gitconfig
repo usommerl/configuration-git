@@ -43,6 +43,7 @@
 	out = "!f() { local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git lo ${2:-} $r/$b..; }; f"
 	pl = pull
 	ps = push
+	psa = push --all
 	psr = push --recurse-submodules=on-demand
 	rl = reflog --date=local
 	s = show
