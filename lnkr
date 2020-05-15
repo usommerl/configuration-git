@@ -2,6 +2,7 @@
 
 install() {
   link "$REPOSITORY_ROOT/.gitconfig" ~/.gitconfig
+  link "$REPOSITORY_ROOT/.gitignore.global" ~/.gitignore
 }
 
 source <(curl -Lfs https://git.io/lnkr)

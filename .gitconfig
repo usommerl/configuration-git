@@ -59,6 +59,7 @@
 	ui = true
 [core]
 	editor = nvim
+	excludesfile = /home/uwe/.gitignore
 [merge]
 	tool = nvim
 	ff = false
