@@ -5,3 +5,5 @@
 .metals/
 project/metals.sbt
 
+.envrc
+
