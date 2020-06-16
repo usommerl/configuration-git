@@ -91,5 +91,7 @@
 	helper = store
 [gitflow "prefix"]
 	versiontag = v
+[gitflow "branch"]
+	master = main
 [diff]
 	submodule = diff
