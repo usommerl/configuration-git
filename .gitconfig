@@ -95,3 +95,5 @@
 	master = main
 [diff]
 	submodule = diff
+[init]
+	templatedir = ~/.git-templates

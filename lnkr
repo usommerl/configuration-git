@@ -3,6 +3,7 @@
 install() {
   link "$REPOSITORY_ROOT/.gitconfig" ~/.gitconfig
   link "$REPOSITORY_ROOT/.gitignore.global" ~/.gitignore
+  link "$REPOSITORY_ROOT/templates" ~/.git-templates
 }
 
 source <(curl -Lfs https://git.io/lnkr)
