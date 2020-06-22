@@ -6,4 +6,5 @@
 project/metals.sbt
 
 .envrc
+scratch*.worksheet.sc
 
