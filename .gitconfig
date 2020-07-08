@@ -86,9 +86,6 @@
   path = ~/.gitconfig-local
 [format]
 	pretty = fuller
-[credential "https://dev.exelonix.com"]
-	username = uwe.sommerlatt
-	helper = store
 [gitflow "prefix"]
 	versiontag = v
 [gitflow "branch"]
