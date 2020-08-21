@@ -26,6 +26,7 @@
 	fbs = flow bugfix start
 	fbf = flow bugfix finish
 	fbp = flow bugfix publish
+	fd = "!f(){ git log --oneline $@ | sed -nr 's/.*Merged in .*\\/([A-Z]+-[0-9]+).*/\\1/p' | tr '\\n' ' ' | tee /dev/tty | xclip -i -sel clipboard; }; f"
 	ff = flow feature
 	ffl = flow feature list -v
 	ffs = flow feature start
