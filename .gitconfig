@@ -95,3 +95,5 @@
 	submodule = diff
 [init]
 	templatedir = ~/.git-templates
+[trim]
+	bases = develop,master,main
