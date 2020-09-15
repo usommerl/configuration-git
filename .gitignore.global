@@ -4,6 +4,7 @@
 .bloop/
 .metals/
 project/metals.sbt
+project/project/
 
 .envrc
 scratch*.worksheet.sc
