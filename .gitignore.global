@@ -3,6 +3,7 @@
 
 .bloop/
 .metals/
+.bsp/
 project/metals.sbt
 project/project/
 
