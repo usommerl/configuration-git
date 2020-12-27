@@ -58,9 +58,19 @@
 	editor = nvim
 	excludesfile = /home/uwe/.gitignore
 [delta]
+	navigate = true
 	line-numbers = true
 	diff-highlight = true
-	hunk-header-style  = omit
+	hunk-header-style = hidden
+	file-style = blue
+	file-decoration-style = omit
+	line-numbers-left-format = "{nm:^4}⋮ "
+	line-numbers-right-format = "{np:^4}│ "
+	line-numbers-left-style = "#777777"
+	line-numbers-right-style = "#777777"
+	line-numbers-zero-style = "#777777"
+	line-numbers-minus-style = "#BB0000"
+	line-numbers-plus-style = "#009900"
 [merge]
 	tool = nvim
 	ff = false
