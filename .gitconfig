@@ -107,3 +107,5 @@
 	templatedir = ~/.git-templates
 [gpg]
 	program = gpg2
+[trim]
+	bases = develop,master,main
