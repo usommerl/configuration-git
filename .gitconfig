@@ -47,6 +47,7 @@
 	stl = status --long
 	su = submodule
 	suf = submodule foreach
+	suurrr = submodule update --remote --rebase --recursive
 	t = tag
 	tl = tag --list
 	wip = for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
