@@ -58,6 +58,8 @@
 	pager = delta
 	editor = nvim
 	excludesfile = /home/uwe/.gitignore
+[pager]
+	log = less -r
 [delta]
 	navigate = true
 	line-numbers = true
