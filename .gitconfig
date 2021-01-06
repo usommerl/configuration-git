@@ -60,6 +60,7 @@
 	excludesfile = /home/uwe/.gitignore
 [pager]
 	log = less -r
+	branch = less -r
 [delta]
 	navigate = true
 	line-numbers = true
