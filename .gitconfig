@@ -61,6 +61,7 @@
 [pager]
 	log = less -r
 	branch = less -r
+	tag = less -r
 [delta]
 	navigate = true
 	line-numbers = true
