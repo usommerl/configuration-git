@@ -56,13 +56,12 @@
 [color]
 	ui = true
 [core]
-	pager = delta
+	pager = less -r
 	editor = nvim
 	excludesfile = /home/uwe/.gitignore
 [pager]
-	log = less -r
-	branch = less -r
-	tag = less -r
+	diff = delta
+	show = delta
 [delta]
 	navigate = true
 	line-numbers = true
