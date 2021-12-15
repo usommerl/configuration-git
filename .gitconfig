@@ -34,8 +34,9 @@
 	frp = flow release publish
 	in = "!f(){ local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git fetch $r $b; git lo ${2:-} ..$r/$b; }; f"
 	lo = "!f(){ git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %Cblue<%an>%Creset' --date=short $@; }; f"
+	lg = "!f() { git lo --graph $@ && exit 0; }; f"
 	ll = log --stat
-	l = "!f() { git lo --graph $@ && exit 0; }; f"
+	l = git lo
 	out = "!f() { local b=$(git symbolic-ref --short HEAD); local r=${1:-origin}; git lo ${2:-} $r/$b..; }; f"
 	pl = pull
 	ps = push
@@ -56,7 +57,7 @@
 [color]
 	ui = true
 [core]
-	pager = less -r
+	pager = less -c
 	editor = nvim
 	excludesfile = /home/uwe/.gitignore
 [pager]
